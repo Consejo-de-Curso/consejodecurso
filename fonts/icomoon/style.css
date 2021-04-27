@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?z42jz4');
+  src:  url('fonts/icomoon.eot?z42jz4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z42jz4') format('truetype'),
+    url('fonts/icomoon.woff?z42jz4') format('woff'),
+    url('fonts/icomoon.svg?z42jz4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-colegio5:before {
+  content: "\e926";
+}
+.icon-colegio4:before {
+  content: "\e927";
+}
+.icon-menos:before {
+  content: "\e91e";
+}
+.icon-mas:before {
+  content: "\e91f";
+}
+.icon-recuerda:before {
+  content: "\e91d";
+}
+.icon-imaginacion:before {
+  content: "\e90b";
+}
+.icon-deportes:before {
+  content: "\e924";
+}
+.icon-amigos:before {
+  content: "\e925";
+}
+.icon-niñaymanos:before {
+  content: "\e921";
+}
+.icon-reloj:before {
+  content: "\e922";
+}
+.icon-estudiantes:before {
+  content: "\e923";
+}
+.icon-instagram:before {
+  content: "\e920";
+}
+.icon-circulografico2:before {
+  content: "\e91c";
+}
+.icon-circulografico:before {
+  content: "\e91b";
+}
+.icon-circulo:before {
+  content: "\e91a";
+}
+.icon-ampolleta:before {
+  content: "\e900";
+}
+.icon-blanco:before {
+  content: "\e901";
+}
+.icon-Cognitivas-superiores:before {
+  content: "\e902";
+}
+.icon-colegio:before {
+  content: "\e903";
+}
+.icon-colegio2:before {
+  content: "\e904";
+}
+.icon-colegio3:before {
+  content: "\e905";
+}
+.icon-Comunicativas:before {
+  content: "\e906";
+}
+.icon-corazon:before {
+  content: "\e907";
+}
+.icon-de-Investigación:before {
+  content: "\e908";
+}
+.icon-edx:before {
+  content: "\e909";
+}
+.icon-escala:before {
+  content: "\e90a";
+}
+.icon-investigacion:before {
+  content: "\e90c";
+}
+.icon-libros:before {
+  content: "\e90d";
+}
+.icon-libros2:before {
+  content: "\e90e";
+}
+.icon-libros3:before {
+  content: "\e90f";
+}
+.icon-lupa:before {
+  content: "\e910";
+}
+.icon-material:before {
+  content: "\e911";
+}
+.icon-niña:before {
+  content: "\e912";
+}
+.icon-pc:before {
+  content: "\e913";
+}
+.icon-piloteamos:before {
+  content: "\e914";
+}
+.icon-Planificaciones:before {
+  content: "\e915";
+}
+.icon-Socioemocionales:before {
+  content: "\e916";
+}
+.icon-sol:before {
+  content: "\e917";
+}
+.icon-Videos-para-estudiantes:before {
+  content: "\e918";
+}
+.icon-Videos-para-profesores:before {
+  content: "\e919";
+}

@@ -1,0 +1,253 @@
+/*--- PLACE YOUR CUSTOM STYLES HERE ---*/
+.bg-black {
+  background-color: black;
+  padding-bottom: 50px;
+}
+.center-cc {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.justify-cc {
+  text-align: justify;
+}
+.col-md-9 {
+  padding: 0 90px 0 90px;
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  .center-cc {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .center-cc {
+    display: inline;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .col-xs-12 {
+    padding: 0 90px 0 90px;
+  }
+  .col-md-9 {
+    padding: 0 90px 0 90px;
+  }
+  .hed-prof {
+    font-size: 30px;
+  }
+}
+   /*--- Background Images ---*/
+.bg-shortcodes {
+    background-image: url(../img/backgrounds/bg-shortcodes.jpg);
+}
+.bg-light {
+    background-image: url(../img/backgrounds/bg-light.jpg);
+}
+
+.bg-shop-1 {
+    background-image: url(../img/backgrounds/bg-shop-1.jpg);
+}
+.bg-shop-2 {
+    background-image: url(../img/backgrounds/bg-shop-2.jpg);
+}
+
+.bg-app-1 {
+    background-image: url(../img/backgrounds/bg-app-1.jpg);
+}
+.bg-app-2 {
+    background-image: url(../img/backgrounds/bg-app-2.jpg);
+}
+.bg-app-3 {
+    background-image: url(../img/backgrounds/bg-app-3.jpg);
+}
+.bg-app-4 {
+    background-image: url(../img/backgrounds/bg-app-4.jpg);
+}
+.bg-app-5 {
+    background-image: url(../img/backgrounds/bg-app-5.jpg);
+}
+.bg-app-6 {
+    background-image: url(../img/backgrounds/bg-app-6.jpg);
+}
+
+.bg-event-1 {
+    background-image: url(../img/backgrounds/bg-event-1.jpg);
+}
+.bg-event-2 {
+    background-image: url(../img/backgrounds/bg-event-2.jpg);
+}
+.bg-event-3 {
+    background-image: url(../img/backgrounds/bg-event-3.jpg);
+}
+
+.bg-img-1 {
+    background-image: url(../img/backgrounds/nina.jpg);
+}
+.bg-img-2 {
+    background-image: url(../img/backgrounds/bg-2.jpg);
+}
+.bg-img-3 {
+    background-image: url(../img/backgrounds/bg-3.jpg);
+}
+.bg-img-4 {
+    background-image: url(../img/backgrounds/bg-4.jpg);
+}
+.bg-img-5 {
+    background-image: url(../img/backgrounds/bg-classroom.jpg);
+}
+.bg-img-6 {
+    background-image: url(../img/backgrounds/bg-6-2.jpg);
+}
+.bg-img-7 {
+    background-image: url(../img/backgrounds/bg-7.jpg);
+}
+.bg-img-8 {
+    background-image: url(../img/backgrounds/bg-8.jpg);
+}
+.bg-img-9 {
+    background-image: url(../img/backgrounds/bg-9.jpg);
+}
+.bg-img-10 {
+    background-image: url(../img/backgrounds/bg-10.jpg);
+}
+.bg-img-11 {
+    background-image: url(../img/backgrounds/bg-11.jpg);
+}
+.bg-img-12 {
+    background-image: url(../img/backgrounds/bg-12.jpg);
+}
+.bg-img-13 {
+    background-image: url(../img/backgrounds/bg-13.jpg);
+}
+.bg-img-14 {
+    background-image: url(../img/backgrounds/bg-14.jpg);
+}
+.bg-img-15 {
+    background-image: url(../img/backgrounds/bg-15.jpg);
+}
+.bg-blue {
+    background-image: url(../img/backgrounds/bg-blue.jpg);
+}
+.intro {
+  font-family: "lovelo", sans-serif;
+}
+.post-profes {
+  padding-top: 50px;
+  line-height: 40px;
+}
+
+
+.counter-p   {
+  font-size: 30px ;
+}
+
+
+.textintro {
+  font-family: "museo", sans-serif ;
+}
+
+
+
+.nav-tabs2>li {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+@media (max-width:768px) {
+    .nav-tabs2>li {
+        display: inline-block;
+        float: none;
+        margin-bottom: 10px;
+        margin-right: 0px;
+        width: 49%;
+    }
+}
+.nav-tabs2>li>a { 
+    font-family: 'lovelo', sans-serif;
+    font-size: 12px;   
+    color: #888;
+    cursor: default;
+    background-color: rgba(0,0,0,0.045);
+    border: none; 
+    border-radius: 0;
+}
+.nav-tabs2>li>a:hover { 
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.08);
+}
+.nav-tabs2 {
+    border-bottom: none;
+}
+
+.nav-tabs2>li.active>a, .nav-tabs2>li.active>a:hover, .nav-tabs2>li.active>a:focus {
+    font-size: 12px;  
+    color: #fff;
+    cursor: default; 
+    border: none; 
+    cursor: pointer;
+} 
+.tab-content {
+    padding-top: 10px;
+
+  }
+
+
+
+  .margenboton a {
+    width: 180px;
+    height: 100px;
+}
+
+.iconogrand {
+    font-size: 30px;
+    text-align: center;
+}
+
+.bg-blue2{
+  background: #1eb5fc; 
+}
+
+.bg-verde{
+  background: #00dcb4; 
+}
+
+.bg-verde2{
+  background: #30c4a8; 
+}
+.padingtop50{
+  padding-top: 80px;
+}
+
+.padingbottom50{
+  padding-bottom: 80px;
+  
+}
+
+
+.padingbottom10{
+  padding-bottom: 60px;
+  
+}
+.color{
+  color: #f15d53 !important;
+ 
+}
+
+.color2{
+  color: #1eb5fc !important;
+ 
+}
+
+.color3{
+  color: #fee834 !important;
+ 
+}
+
+
+.fontincon{
+  font-size: 100px !important;
+}

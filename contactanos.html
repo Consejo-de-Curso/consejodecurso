@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+    //   <!--Google Analytics-- >
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-44823062-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto - Fundación Consejo de Curso</title>
+    <link href="img/assets/favicon.png" rel="icon" type="image/png">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/theme.css" rel="stylesheet" type="text/css">
+    <link href="css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link href="css/et-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="css/themify-icons.css" rel="stylesheet" type="text/css">
+    <link href="fonts/lovelo/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400%7COpen+Sans:400,300' rel='stylesheet'
+        type='text/css'>
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link href="css/colors/blue.css" id="color-scheme" rel="stylesheet" type="text/css">
+    <script src="js/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <nav class="navbar navbar-default fullwidth transparent">
+        <div class="container">
+
+            <div class="navbar-header">
+                <div class="container">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="./index.html"><img src="img/assets/logo_light3.png" class="logo-light"
+                            alt="#"><img src="img/assets/logo_dark3.png" class="logo-dark" alt="#"></a>
+                </div>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class="container">
+                    <ul class="nav navbar-nav menu-right">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle">Programas<i class="ti-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://aula42.org" target="_blank">Aula 42</a></li>
+                                <li><a href="http://academiadeverano.cl/" target="_blank">Academia de Verano</a></li>
+                                <li><a href="./verano-trampolin.html">Verano Trampolín</a></li>
+                                <li><a href="https://www.transformaverano.cl/index.html" target="_blank">Transforma
+                                        Verano</a></li>
+                                <li><a href="https://summerfirst.cl/" target="_blank">SummerFirst</a></li>
+                                <li><a href="https://www.trampolinfm.cl/" target="_blank">Trampolín FM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="servicios-ate.html">Servicios</a></li>
+                        <li><a href="sobre-nosotros.html">Sobre Consejo</a></li>
+                        <li class="nav-separator"></li>
+                        <li><a href="contactanos.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            </divsomeHiddenDiv>
+    </nav>
+    <!-- End Header -->
+
+    <!-- Page Hero -->
+    <section class="hero-fullwidth parallax bg-contactanos">
+        <div class="hero-container">
+            <div class="hero-content text-center">
+
+                <div class="col-sm-12 text-center white contact-creative">
+                    <p class="subheading white">Queremos conocerte</p>
+                    <h1>Estamos aquí <span class="bold">para trabajar juntos</span> </h1>
+                    <p>Si compartes nuestra visión del futuro de la educación, escríbenos.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Page Hero -->
+
+    <!-- Start Contact Form Section -->
+    <section id=email class="pt20 pb90">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact col-md-9">
+                    <div id="message"></div>
+
+                    <!-- Contact Form will be functional only on your server. Upload to your server when testing. -->
+                    <form method="post" name="contactform" id="contactform">
+                        <fieldset><input name="name" type="text" id="name" placeholder="Tu nombre*" required />
+                        </fieldset>
+                        <fieldset><input name="email" type="text" id="email" placeholder="Tu email*" required />
+                        </fieldset>
+                        <input name="asunto" type="text" id="asunto" placeholder="Asunto" required />
+                        <textarea name="descripcion" cols="40" rows="3" id="descripcion" placeholder="Descripción*"
+                            required></textarea>
+                        <input type="submit" onclick="ga('send', 'event', 'Contact-Button', 'hit', 'Boton Contacto');"
+                            class="submit btn btn-md btn-primary" id="submit" value="Enviar mensaje" />
+                    </form>
+                    <div id="prueba" style="display: none; align-content:center;">
+                        <h5>Muchas gracias por tu mensaje!<h5>
+                    </div>
+                </div>
+
+                <div class="col-md-3 contact-side">
+                    <div class="side-info">
+                        <h5>¡Nos encantaría hablar contigo!</h5>
+                        <p>No dudes en escribirnos si quieres saber algo más del equipo, de nuestros programas,
+                            servicios o simplemente compartir tus ideas :)</p>
+                    </div>
+                    <div class="side-info">
+                        <h5>Visítanos!</h5>
+                        <p>
+                            Av. General Bustamante 26, Providencia
+                            <br>
+                            <a href="mailto:contacto@consejodecurso.cl">contacto@consejodecurso.cl</a>
+                        </p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Form Section -->
+
+    <!-- Footer One -->
+    <footer id="footer-1">
+
+        <div class="footer-columns">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <img src="img/assets/logo_light-footer.svg" width="40%">
+                        <p>Creamos programas para inspirar los colegios del futuro, en Chile y Latinoamérica.<br><br>
+                            Av. General Bustamante 26, Providencia<br> Santiago de Chile<br>
+                            contacto@consejodecurso.cl<br><br></p>
+                        <a href="https://www.facebook.com/consejodecursoCL" target=»_blank»><img
+                                src="img/social/facebook.svg" width="8%"></a>
+                        <a href="https://twitter.com/consejodecurso" target=»_blank»><img src="img/social/twitter.svg"
+                                width="8%"></a>
+                        <a href="https://www.instagram.com/consejodecurso/?hl=es-la" target=»_blank»><img
+                                src="img/social/instagram.svg" width="8%"></a>
+                        <a href="https://www.linkedin.com/company/fundaci%C3%B3n-consejo-de-curso/" target=»_blank»><img
+                                src="img/social/linkedin.svg" width="8%"></a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h4 class="subheading">Últimas publicaciones</h4>
+                        <ul class="footer-recent-posts">
+                            <li><a href="blog.html">Aprender por gusto</a><span class="recent-post-date">5 de julio,
+                                    2017</span></li>
+                            <li><a href="blog.html">El efecto Pigmalión</a><span class="recent-post-date">3 de junio,
+                                    2017</span></li>
+                            <li><a href="blog.html">Mentalidad de crecimiento</a><span class="recent-post-date">28 de
+                                    mayo, 2017</span></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-5">
+
+                        <p>Certificaciones:<br><br></p>
+                        <a href="certificado_ate.pdf" target="_blank"><img src="img/assets/ate.svg" width="30%"></a>
+                        <a href="https://www.ayudamineduc.cl/ficha/uso-de-recursos-sep-12" target=»_blank»><img
+                                src="img/assets/sep.svg" width="30%"></a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="row">
+                <div class="text-center">
+                    <p>© 2020 <a href="index.html" class="logo">Fundación Consejo de Curso. </a> Todos los derechos
+                        reservados. </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer One -->
+
+    <!-- Start Back To Top -->
+    <a id="back-to-top"><i class="icon ion-chevron-up"></i></a>
+    <!-- End Back To Top   -->
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        $(function () {
+            $('#contactform').submit(function () {
+                // show a hidden div to indicate progression
+                $('#prueba').show();
+                $('#contactform').hide();
+
+                // kick off AJAX
+                $.ajax({
+                    url: "https://0wg6a18pg8.execute-api.us-west-2.amazonaws.com/prod/contacto",
+                    type: this.method,
+                    data: $(this).serialize(),
+                    success: function () {
+                        // AJAX request finished, handle the results and hide progress
+                        $('#prueba').hide();
+                    }
+                });
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>
