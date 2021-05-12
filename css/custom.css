@@ -47,7 +47,7 @@
     margin-top: 0px;
   }
   .hed-prof {
-    font-size: 20px;
+    font-size: 40px;
   }
 }
    /*--- Background Images ---*/
@@ -88,7 +88,7 @@
     background-image: url(../img/backgrounds/bg-event-1.jpg);
 }
 .bg-servicios {
-  background-image: url(../img/backgrounds/bg-servicios.jpg);
+  background-image: url(../img/backgrounds/img_servicios-ate.jpg);
 }
 .bg-event-2 {
     background-image: url(../img/backgrounds/bg-event-2.jpg);
