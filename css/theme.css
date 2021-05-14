@@ -30,6 +30,11 @@
  26. Pages
 
 /*---------- GLOBAL STYLES ----------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html {  
     overflow-y: scroll;
     -webkit-backface-visibility: hidden;
@@ -3868,24 +3873,37 @@ ul {
 
 .iconos-serv {
 width: 260px;
+display: inline-block;
 }
 
 .iconos-serv h4 {
-    text-align: center;
-    margin: 0;
+    text-align: left;
+    margin: 20px 0px 0px;
 }
 
 .iconos-serv img {
-    padding-left: 20px;
+    width: 70%;
+}
+
+.cajas-serv-content {
+    display: inline-block;
+}
+
+.contenedor-serv {
+display: inline-block;
 }
 
 .caja-serv {
+    display: inline-block;
     width: 217px;
     height: 231px;
     border: 2px solid #1EB5FC;
     box-sizing: border-box;
     border-radius: 5px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px 8px 0px;
+    position: relative;
+
 }
 
 .caja-serv h5 {
