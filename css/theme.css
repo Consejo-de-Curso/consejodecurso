@@ -1693,6 +1693,15 @@ p {
     float: none; 
     padding-bottom: 40px;  
 }
+
+.section-heading3 {
+    text-align: center;
+    margin: auto;
+    float: none; 
+    padding: 100px 10px 60px;
+    background-color: #FEE834;
+}
+
 .section-heading h2 { 
     font-size: 40px;
     font-weight: 200;
@@ -1711,6 +1720,17 @@ p {
     margin-top: 100px;
 }
 
+.section-heading3 h2 { 
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.05em;
+    margin: 0; 
+    padding-top: 30px;
+}
+
+
 .section-heading hr,
 hr.separator {
     margin: 22px auto 25px auto;
@@ -1718,6 +1738,8 @@ hr.separator {
     border-style: solid;
     border-top-width: 2px; 
 }
+
+
 hr.separator.left {margin: 28px auto 25px 0}
 hr.separator.right {margin: 28px 0 25px auto}
 .section-heading p2 {
@@ -3862,38 +3884,66 @@ ul {
 
 /* Servicios ate */
 
+
+
 .main-serv {
-    margin: 0px 160px 0px;
+    background-color: lightskyblue;
 }
 
-@media (max-width: 992px) {
-    .main-serv{
-        margin: 0px 10px 0px;
-    }
+.section-servicios{
+background-color: lawngreen;
+margin-left: 160px;
 }
 
 .iconos-serv {
 width: 260px;
 height: 231px;
+background-color: magenta;
 }
 
 .iconos-serv h4 {
-    text-align: left;
+    text-align: center;
     margin: 20px 0px 0px;
+    background-color: mediumslateblue;
 }
 
 .iconos-serv img {
-    width: 70%;
-    display: ;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .cajas-serv-content {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: olivedrab;
+}
+
+@media (max-width: 1133px) {
+    .div-incluye{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
 .contenedor-serv {
 display: flex;
+flex-direction: row;
+justify-content: center;
+background-color:yellow;
+}
+
+@media (max-width: 1133px) {
+    .contenedor-serv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .caja-serv {
@@ -3913,6 +3963,7 @@ display: flex;
     font-family: Montserrat;
     font-weight: 500;
     margin: 32px 7px 0px; 
+    background-color: mediumseagreen;
 }
 
 .caja-serv p{
@@ -3971,6 +4022,13 @@ font-style: normal;
 line-height: 17px;
 text-align: center;
 margin-top: 33px;
+}
+
+.escogernos {
+    background-color: #FEE834;
+}
+.section-experiencia {
+    background-color: #82b541;
 }
 
 /*---------- PORTFOLIO ---------*/

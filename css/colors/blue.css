@@ -63,8 +63,13 @@ h4.fitness-label,
 .btn-primary.btn-appear:hover
 {
     border-color: #1EB5FC
-    
+
 }
+
+.section-heading3 hr, hr.separator {
+    border-color: black;
+}
+
 .accordian-style2 .panel-title,
 .food-tabs li.active a,
 .food-tabs li.active a:focus,
