@@ -3873,7 +3873,7 @@ ul {
 
 .iconos-serv {
 width: 260px;
-display: inline-block;
+height: 231px;
 }
 
 .iconos-serv h4 {
@@ -3883,14 +3883,16 @@ display: inline-block;
 
 .iconos-serv img {
     width: 70%;
+    display: ;
 }
 
 .cajas-serv-content {
-    display: inline-block;
+    display: inline-flex;
 }
 
+
 .contenedor-serv {
-display: inline-block;
+display: flex;
 }
 
 .caja-serv {
