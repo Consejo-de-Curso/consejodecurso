@@ -3165,6 +3165,7 @@ ul {
 .mt120{margin-top:120px!important}
 .mt130{margin-top:130px!important}
 .mt140{margin-top:140px!important}
+.mt150{margin-top:150px!important}
 /* Margin Bottom */
 .mb0{margin-bottom:0!important}
 .mb5{margin-bottom:5px!important}
@@ -3927,6 +3928,43 @@ display: flex;
     font-weight: normal;
     color: #1EB5FC;
     margin: 0px 7px 0px;
+}
+
+.section-incluye{
+    background-color: lightcoral;
+    align-items: center;
+}
+.div-incluye {
+ background-color: lawngreen;
+}
+
+@media (max-width: 992px) {
+    .div-incluye{
+        margin: 0px 10px 0px;
+    }
+}
+
+.caja-incluye {
+    width: 170px;
+    height: 198px;
+    margin: 0px auto;
+    background-color: aquamarine;
+}
+
+.caja-incluye img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(238, 199, 25);
+}
+
+.caja-incluye p {
+font-family: Montserrat;
+font-weight: normal;
+font-style: normal;
+line-height: 17px;
+text-align: center;
+margin-top: 33px;
 }
 
 /*---------- PORTFOLIO ---------*/
