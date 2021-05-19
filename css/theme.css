@@ -1698,7 +1698,7 @@ p {
     text-align: center;
     margin: auto;
     float: none; 
-    padding: 100px 10px 30px;
+    padding: 80px 10px 30px;
     background-color: #FEE834;
 }
 
@@ -3884,16 +3884,16 @@ ul {
 
 /* Servicios ate */
 .main-serv {
-    background-color: lightskyblue;
+    background-color: white;
 }
 
 .contenedor-cajas{
-    background-color: chocolate;
+    background-color: white;
     margin: 0px auto;
 }
 
 .section-servicios{
-background-color: lawngreen;
+background-color: white;
 display: flex;
 flex-direction: column;
 }
@@ -3902,7 +3902,7 @@ flex-direction: column;
 width: 260px;
 height: 231px;
 margin-right: 40px;
-background-color: magenta;
+background-color: white;
 }
 
 @media (max-width: 441px){
@@ -3914,7 +3914,6 @@ background-color: magenta;
 .iconos-serv h4 {
     text-align: center;
     margin: 20px 0px 0px;
-    background-color: mediumslateblue;
 }
 
 .iconos-serv img {
@@ -3928,7 +3927,7 @@ background-color: magenta;
     display: flex;
     flex-direction: row;
     justify-content: left;
-    background-color: olivedrab;
+    background-color: white;
 }
 
 @media (max-width: 441px){
@@ -3956,7 +3955,6 @@ background-color: magenta;
     font-family: Montserrat;
     font-weight: 500;
     margin: 32px 7px 0px; 
-    background-color: mediumseagreen;
 }
 
 .caja-serv p{
@@ -3975,10 +3973,10 @@ background-color: magenta;
 }
 
 .section-incluye{
-    background-color: lightcoral;
+    background-color: white;
 }
 .div-incluye {
- background-color: lawngreen;
+ background-color: white;
  display: flex;
  flex-direction: row;
  justify-content: center;
@@ -3988,14 +3986,12 @@ background-color: magenta;
     width: 170px;
     height: 198px;
     margin: 50px 30px 0px;
-    background-color: aquamarine;
 }
 
 .caja-incluye img{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgb(238, 199, 25);
 }
 
 .caja-incluye p {
@@ -4013,10 +4009,11 @@ margin-top: 33px;
     padding: 0px;
 }
 .section-experiencia {
-    background-color: #82b541;
+    background-color: #FEE834;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .contenedor-exp {
@@ -4027,7 +4024,7 @@ margin-top: 33px;
     width: 232px;
     height: 407px;
     margin: 30px 30px 0px;
-    background-color: cadetblue;
+    background-color: #FEE834;
 }
 .caja-exp img{
     width: 215px;
@@ -4050,7 +4047,7 @@ margin-top: 33px;
     font-weight: normal;
     line-height: 17px;
     text-align: center;
-    margin: 20px 10px 0px;
+    margin: 20px 30px 0px;
 }
 
 .wrap    { 
