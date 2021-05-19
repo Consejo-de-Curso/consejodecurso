@@ -1698,7 +1698,7 @@ p {
     text-align: center;
     margin: auto;
     float: none; 
-    padding: 100px 10px 60px;
+    padding: 100px 10px 30px;
     background-color: #FEE834;
 }
 
@@ -3883,22 +3883,32 @@ ul {
 }
 
 /* Servicios ate */
-
-
-
 .main-serv {
     background-color: lightskyblue;
 }
 
+.contenedor-cajas{
+    background-color: chocolate;
+    margin: 0px auto;
+}
+
 .section-servicios{
 background-color: lawngreen;
-margin-left: 160px;
+display: flex;
+flex-direction: column;
 }
 
 .iconos-serv {
 width: 260px;
 height: 231px;
+margin-right: 40px;
 background-color: magenta;
+}
+
+@media (max-width: 441px){
+    .iconos-serv{
+        margin: 0px 10px 0px;
+    }
 }
 
 .iconos-serv h4 {
@@ -3908,7 +3918,7 @@ background-color: magenta;
 }
 
 .iconos-serv img {
-    width: 60%;
+    width: 150px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -3921,27 +3931,10 @@ background-color: magenta;
     background-color: olivedrab;
 }
 
-@media (max-width: 1133px) {
-    .div-incluye{
-        margin: 0px;
+@media (max-width: 441px){
+    .cajas-serv-content{
         display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-
-.contenedor-serv {
-display: flex;
-flex-direction: row;
-justify-content: center;
-background-color:yellow;
-}
-
-@media (max-width: 1133px) {
-    .contenedor-serv{
-        display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
     }
 }
@@ -3983,22 +3976,12 @@ background-color:yellow;
 
 .section-incluye{
     background-color: lightcoral;
-    align-items: center;
 }
 .div-incluye {
  background-color: lawngreen;
  display: flex;
  flex-direction: row;
  justify-content: center;
-}
-
-@media (max-width: 700px) {
-    .div-incluye{
-        margin: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 .caja-incluye {
@@ -4026,11 +4009,54 @@ margin-top: 33px;
 
 .escogernos {
     background-color: #FEE834;
+    margin: 0px;
+    padding: 0px;
 }
 .section-experiencia {
     background-color: #82b541;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+.contenedor-exp {
+    background-color: blueviolet;
+}
+
+.caja-exp {
+    width: 232px;
+    height: 407px;
+    margin: 30px 30px 0px;
+    background-color: cadetblue;
+}
+.caja-exp img{
+    width: 215px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.caja-exp h5{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 39px;
+}
+
+.caja-exp p{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 17px;
+    text-align: center;
+    margin: 20px 10px 0px;
+}
+
+.wrap    { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }  
 /*---------- PORTFOLIO ---------*/
 .portfolio {
     padding-top: 69px;
