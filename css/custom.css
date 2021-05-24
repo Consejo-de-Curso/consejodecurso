@@ -142,6 +142,9 @@
 .bg-img-15 {
     background-image: url(../img/backgrounds/bg-15.jpg);
 }
+.bg-img-16 {
+  background-image: url(../img/backgrounds/bg_testimonios2.jpg);
+}
 .bg-contactanos {
     background-image: url(../img/backgrounds/bg-contactanos.jpg);
 }
@@ -260,7 +263,7 @@
 }
 
 .color2{
-  color: #00c4ff !important;
+  color: #1EB5FC !important;
 
 }
 
@@ -276,6 +279,11 @@
 
 .color5{
   color: #ffffff !important;
+
+}
+
+.color6{
+  color: #00000 !important;
 
 }
 
