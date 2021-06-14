@@ -407,3 +407,26 @@ tr, td {
    border: 1px solid #1eb5fc;
    border-spacing: 0;
 }
+
+/* Sección ver más servicios ate */
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width: 60%;
+  text-align: justify;
+  padding-left: 2px;
+}
+
+.modal-content {
+  background-color: #30c4a8;
+}
+
+.modal-body img{
+  padding-top: 15px;
+}
