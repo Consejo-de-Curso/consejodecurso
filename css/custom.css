@@ -423,6 +423,11 @@ tr, td {
   padding-left: 2px;
 }
 
+.caja-contenido-modal {
+ display: flex;
+ flex-direction: row;
+}
+
 .modal-content {
   background-color: #ffffff;
 }
@@ -432,7 +437,8 @@ tr, td {
 }
 
 .imgmodal img {
-  max-height: 50%;
+  max-height: 100%;
+  padding-right: 10px;
 }
 
 .img-responsive {
@@ -456,4 +462,33 @@ tr, td {
   font-weight: 200;
   text-align: left;
   line-height: 17px;
+  margin: 0;
+}
+
+.caja-ictext {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.caja-ictext img{
+  padding: 0 15px 0 0;
+}
+
+.caja-ictext ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.caja-ictext ul li{
+  font-size: 13px;
+  font-weight: 200;
+  text-align: left;
+  line-height: 17px;
+  color: #333333;
+}
+
+.caja-objetivos {
+  display: flex;
+  flex-direction: column;
 }
