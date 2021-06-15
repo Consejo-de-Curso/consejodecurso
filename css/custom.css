@@ -424,9 +424,36 @@ tr, td {
 }
 
 .modal-content {
-  background-color: #30c4a8;
+  background-color: #ffffff;
 }
 
 .modal-body img{
   padding-top: 15px;
+}
+
+.imgmodal img {
+  max-height: 50%;
+}
+
+.img-responsive {
+  display:block;
+  max-width:100%;
+  height:auto
+}
+
+.contenido-modal {
+  text-align: left;
+}
+
+.contenido-modal h3{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.contenido-modal p{
+  font-size: 13px;
+  font-weight: 200;
+  text-align: left;
+  line-height: 17px;
 }
