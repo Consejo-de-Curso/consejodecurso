@@ -415,12 +415,11 @@ tr, td {
 }
 
 .modal-dialog {
-  display: inline-block;
+  display: flex;
   text-align: left;
-  vertical-align: middle;
-  width: 60%;
-  text-align: justify;
+  width: 70%;
   padding-left: 2px;
+
 }
 
 .caja-contenido-modal {
@@ -432,13 +431,9 @@ tr, td {
   background-color: #ffffff;
 }
 
-.modal-body img{
-  padding-top: 15px;
-}
-
-.imgmodal img {
-  max-height: 100%;
-  padding-right: 10px;
+.imgmodal {
+  width: 70%;
+  margin: 15px 25px 0 0;
 }
 
 .img-responsive {
@@ -447,31 +442,27 @@ tr, td {
   height:auto
 }
 
-.contenido-modal {
-  text-align: left;
-}
-
 .contenido-modal h3{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
-  text-align: left;
+  margin: 15px 0 25px;
 }
 
 .contenido-modal p{
   font-size: 13px;
   font-weight: 200;
-  text-align: left;
   line-height: 17px;
   margin: 0;
 }
 
 .caja-ictext {
-  margin: 10px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
 }
 
 .caja-ictext img{
+  margin-bottom: auto;
   padding: 0 15px 0 0;
 }
 
@@ -483,7 +474,6 @@ tr, td {
 .caja-ictext ul li{
   font-size: 13px;
   font-weight: 200;
-  text-align: left;
   line-height: 17px;
   color: #333333;
 }
@@ -491,4 +481,30 @@ tr, td {
 .caja-objetivos {
   display: flex;
   flex-direction: column;
+}
+
+.img-reloj{
+  width: 38px;
+  margin-left: 7px;
+}
+
+.boton-modal {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 6px;
+  box-sizing: border-box;
+  border: 1px solid #1EB5FC;
+  border-radius: 3px;
+}
+
+.boton-modal a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #1EB5FC;
+}
+
+.boton-modal i {
+  padding: 0 7px 0 5px;
+  color: #1EB5FC;
 }
