@@ -417,7 +417,7 @@ tr, td {
 .modal-dialog {
   display: flex;
   text-align: left;
-  width: 70%;
+  width: 60%;
   padding-left: 2px;
 
 }
@@ -427,19 +427,32 @@ tr, td {
  flex-direction: row;
 }
 
+@media (max-width: 991px){
+  .caja-contenido-modal{
+     display: flex;
+     flex-direction: column;
+  }
+}
+
+
 .modal-content {
   background-color: #ffffff;
 }
 
 .imgmodal {
   width: 70%;
-  margin: 15px 25px 0 0;
+  padding-top: 15px;
+  margin: 0 auto;
 }
 
 .img-responsive {
   display:block;
   max-width:100%;
   height:auto
+}
+
+.contenido-modal{
+ padding-left: 20px;
 }
 
 .contenido-modal h3{
