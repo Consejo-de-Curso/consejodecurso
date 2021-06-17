@@ -417,7 +417,7 @@ tr, td {
 .modal-dialog {
   display: flex;
   text-align: left;
-  width: 60%;
+  width: 70%;
   padding-left: 2px;
 
 }
@@ -427,7 +427,7 @@ tr, td {
  flex-direction: row;
 }
 
-@media (max-width: 991px){
+@media (max-width: 800px){
   .caja-contenido-modal{
      display: flex;
      flex-direction: column;
@@ -452,7 +452,19 @@ tr, td {
 }
 
 .contenido-modal{
- padding-left: 20px;
+ padding-left: 30px;
+ width: 70%;
+}
+
+@media (max-width: 800px){
+  .contenido-modal{
+     padding: 0;
+     width: auto;
+  }
+
+  .contenido-modal h3{
+    text-align: center;
+  }
 }
 
 .contenido-modal h3{
@@ -521,3 +533,9 @@ tr, td {
   padding: 0 7px 0 5px;
   color: #1EB5FC;
 }
+
+@media (max-width: 800px){
+  .caja-boton {
+    display: flex;
+    justify-content: center;
+  }
