@@ -4583,15 +4583,17 @@ footer p {
 
 @media (max-width:992px) {
     #footer-1 .row>div { 
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        margin-left: 30px;
     }
     #footer-1 .footer-1-social {
         margin-bottom: -10px;
     }
+
 }
 .footer-columns {
-    padding: 60px 0 50px 0;
+    padding: 60px 0 60px 0;
 }
 
 footer ul a:hover {
@@ -4636,22 +4638,75 @@ footer ul a:hover {
     color:#fff; /*----- color span del footer -----*/
 }
 
+.img-footer {
+    width: 30%;
+}
 
+.logo-registro {
+    width: 35%;
+}
+
+.publicaiones-caja {
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.publicaiones-caja h4{
+    text-align: center;
+}
+
+
+
+.registros-caja p{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.caja-logos-registro{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.caja-logos-registro img{
+    width: 110px;
+}
 
 /*Recent Posts*/ 
-.footer-recent-posts li:before {
+/* .footer-recent-posts li:before {
     font-family: "Ionicons";
     content: "\f249";
     position: absolute;
     font-size: 16px;
     left: 16px;
     margin-top: -8px;
-    color: #fff;
+    color: #fff; */
 }
 .footer-recent-posts li {
     padding-left: 24px;
     padding-top: 0;
+
 }
+
+.footer-recent-posts li a{
+    text-align: center;
+    font-weight: 600;
+}
+
+.footer-recent-posts li p{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 11px;
+    
+}
+
+
 /*Twitter Feed*/
 #twitter-feed p {
     margin-bottom: 0;
