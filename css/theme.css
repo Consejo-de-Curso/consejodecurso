@@ -5265,6 +5265,9 @@ blockquote {
     line-height: 1.4;
 }
 
+.pie-pagina {
+    font-size: 10px;
+}
 /*---------- SHOP ----------*/
 .shop {
     padding-top: 69px;
