@@ -98,7 +98,7 @@
 }
 
 .bg-img-1 {
-    background-image: url(../img/backgrounds/av-ninxs.jpg);
+    background-image: url(../img/backgrounds/bg_index1.jpg);
 }
 .bg-img-2 {
     background-image: url(../img/backgrounds/bg-2.jpg);
@@ -145,6 +145,7 @@
 .bg-img-16 {
   background-image: url(../img/backgrounds/bg_testimonios2.jpg);
 }
+
 .bg-contactanos {
     background-image: url(../img/backgrounds/bg-contactanos.jpg);
 }
